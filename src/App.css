@@ -1,0 +1,10 @@
+.app {
+  background-color: #6E5CC2;
+  height: 100dvh;
+  padding: 20px 50px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+

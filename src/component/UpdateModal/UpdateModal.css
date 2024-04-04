@@ -1,0 +1,28 @@
+.update{
+    overflow: hidden;
+    position: absolute;
+    border: 3px solid #6e5cc2;
+    border-radius: 20px;
+    width: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f7f7f7;
+    padding: 10px 15px;
+}
+.update .top h1{
+    font-size: 28px;
+    font-weight: 600;
+}
+.update .top .closeIcon{
+    color: #6e5cc2;
+    transition: transform 0.3s ease;
+    font-size: 35px;
+}
+.update .top{
+    display: flex;
+    justify-content: space-between;
+}
+.update .top .closeIcon:hover{
+    transform: scale(1.2);
+}
